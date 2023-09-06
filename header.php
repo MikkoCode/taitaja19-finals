@@ -83,5 +83,7 @@
             </div>
         </div>
     </header>
-<?php $conn = mysqli_connect("mikko.rautavirta.test", "mikko.rautavirta", "4939", "mikko_main");
+<?php $connectionInfo = array("UID" => "mikko.rautavirta", "pwd" => "Paska123", "Database" => "mikko.rautavirta", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$serverName = "tcp:mikkorautavirta.database.windows.net,1433";
+$conn = sqlsrv_connect($serverName, $connectionInfo);
 $conn->set_charset('utf8'); ?>
