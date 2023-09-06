@@ -1,5 +1,4 @@
-
-
+// Purpose: Home page
 <?php
 require 'header.php';
 ?>
@@ -13,6 +12,7 @@ require 'header.php';
 <section class="section-white">
   <div class="container">
     <h1>Hei Maailma!</h1>
+    <h2>Portfolio!</h2>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">

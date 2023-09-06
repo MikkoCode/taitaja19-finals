@@ -83,7 +83,6 @@
             </div>
         </div>
     </header>
-<?php $connectionInfo = array("UID" => "mikko.rautavirta", "pwd" => "Paska123", "Database" => "mikko.rautavirta", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-$serverName = "tcp:mikkorautavirta.database.windows.net,1433";
-$conn = sqlsrv_connect($serverName, $connectionInfo);
-$conn->set_charset('utf8'); ?>
+<?php 
+$conn = pg_connect("host=mikkorautavirta.postgres.database.azure.com port=5432 dbname= user=mikko password={your_password}");
+?>

@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled",
+                "ssl": {}
+            },
+            "previewLimit": 50,
+            "server": "mikkorautavirta.database.windows.net",
+            "port": 1433,
+            "driver": "MySQL",
+            "name": "rautavirta",
+            "username": "mikko.rautavirta",
+            "database": "mikko.rautavirta",
+            "password": "Paska123",
+            "connectionTimeout": 60
+        }
+    ]
+}
