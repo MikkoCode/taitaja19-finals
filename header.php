@@ -68,7 +68,7 @@
                     </button>
 
                     <a class="navbar-brand" href="/">
-                    	<img src="images/main-logo.jpg" alt="logo" class="main-logo img-responsive" style="float:left">
+                    	<img src="images/profilepic.jpg" alt="logo" class="main-logo img-responsive" style="float:left">
                         <h1 style="float:right; margin-top:1em; margin-left:10px" id="main-text">ROBOBISNES</h1>
                     </a>
                     
