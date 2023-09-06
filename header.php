@@ -84,5 +84,5 @@
         </div>
     </header>
 <?php 
-$conn = pg_connect("host=mikkorautavirta.postgres.database.azure.com port=5432 dbname= user=mikko password={your_password}");
+$conn = postgres("postgres://mikko:'Paska123'@mikkorautavirta.postgres.database.azure.com:5432/mikkor");
 ?>
