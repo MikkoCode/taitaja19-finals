@@ -5,6 +5,8 @@ include 'nav.php';
 
 <div class="mt-5">
     <h1 class="animated-header">Welcome to My Portfolio Website!</h1>
+    <p>My name is Mikko Rautavirta.</p>
+    <p>I am an IT-Student</p>
     <p>This is a simple portfolio website created using PHP.</p>
     <p>It is a work in progress, so please check back later for more updates.</p>
     <p>Thank you for visiting!</p>
@@ -39,57 +41,49 @@ include 'nav.php';
     </section>
 
     <section class="photos mt-4">
-        <h2>Photos</h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://via.placeholder.com/800x400?text=Photo+1" class="d-block w-100" alt="Photo 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x400?text=Photo+2" class="d-block w-100" alt="Photo 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x400?text=Photo+3" class="d-block w-100" alt="Photo 3">
-                </div>
+    <h2>Photos</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/800x400?text=Photo+1" class="d-block w-100" alt="Photo 1">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400?text=Photo+2" class="d-block w-100" alt="Photo 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400?text=Photo+3" class="d-block w-100" alt="Photo 3">
+            </div>
         </div>
         <div class="mt-3">
             <a href="#" class="btn btn-primary">View More Photos</a>
         </div>
-    </section>
-    <section class="skills mt-4">
-        <h2>Skills</h2>
-        <?php
-        $skills = [
-            'PHP',
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'MySQL',
-            'React',
-            'Node.js',
-            'Git',
-            'AWS',
-        ];
-        
-        foreach ($skills as $skill) {
-            echo "<div class='skill mb-3'>$skill</div>";
-        }
-        ?>
-    </section>
+    </div>
+</section>
+<section class="skills mt-4">
+    <h2>Skills</h2>
+    <?php
+    $skills = [
+        'PHP',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'MySQL',
+        'React',
+        'Node.js',
+        'Git',
+        'AWS',
+        'Python',
+        'Java',
+        'C#',
+        'Databases',
+    ];
+
+    foreach ($skills as $skill) {
+        echo "<div class='skill mb-3'>$skill</div>";
+    }
+    ?>
+</section>
+
 </div>
 
 <?php 
