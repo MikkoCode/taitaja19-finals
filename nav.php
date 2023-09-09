@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">
-      <img src="logo.png" alt="Logo" class="sticky-top"> Portfolio
+      <img src="images/logo.jpg" alt="Logo" class="sticky-top"> Portfolio
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
