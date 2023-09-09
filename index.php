@@ -1,4 +1,7 @@
-<?php include 'header.php'; include 'nav.php'; ?>
+<?php 
+include 'header.php'; 
+include 'nav.php'; 
+?>
 
 <div class="mt-5">
     <h1 class="animated-header">Welcome to My Portfolio Website!</h1>
@@ -20,16 +23,17 @@
         <h2>Projects</h2>
         <?php
         $projects = [
-            ['title' => 'Project 1', 'description' => 'Description of project 1'],
-            ['title' => 'Project 2', 'description' => 'Description of project 2'],
-            ['title' => 'Project 3', 'description' => 'Description of project 3'],
+            ['title' => 'Project 1', 'description' => 'Description of project 1', 'link' => 'https://example.com/project1'],
+            ['title' => 'Project 2', 'description' => 'Description of project 2', 'link' => 'https://example.com/project2'],
+            ['title' => 'Project 3', 'description' => 'Description of project 3', 'link' => 'https://example.com/project3'],
         ];
         
         foreach ($projects as $project) {
-            echo "<div class='project mb-3'>";
-            echo "<h3>{$project['title']}</h3>";
-            echo "<p>{$project['description']}</p>";
-            echo "</div>";
+            echo "<div class='project mb-3'>
+                    <h3>{$project['title']}</h3>
+                    <p>{$project['description']}</p>
+                    <a href='{$project['link']}' class='btn btn-primary'>View Project</a>
+                  </div>";
         }
         ?>
     </section>
@@ -67,21 +71,27 @@
         </div>
     </section>
     <section class="skills mt-4">
-    <h2>Skills</h2>
-    <?php
-    $skills = [
-        'PHP',
-        'HTML',
-        'CSS',
-        'JavaScript',
-        'MySQL',
-    ];
-    
-    foreach ($skills as $skill) {
-        echo "<div class='skill mb-3'>$skill</div>";
-    }
-    ?>
-</section>
+        <h2>Skills</h2>
+        <?php
+        $skills = [
+            'PHP',
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'MySQL',
+            'React',
+            'Node.js',
+            'Git',
+            'AWS',
+        ];
+        
+        foreach ($skills as $skill) {
+            echo "<div class='skill mb-3'>$skill</div>";
+        }
+        ?>
+    </section>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php 
+include 'footer.php'; 
+?> 

@@ -9,41 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <style>
-    body {
-        background: linear-gradient(45deg, #f3ec78, #af4261);
-        color: white;
-    }
-
-    .navbar-brand {
-        display: flex;
-        align-items: center;
-    }
-
-    .navbar-brand img {
-        height: 40px;
-        margin-right: 10px;
-    }
-
-    .animated-header {
-        animation: fadeIn 5s infinite;
-    }
-
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-
-        50% {
-            opacity: 1;
-        }
-
-        100% {
-            opacity: 0;
-        }
-    }
-    </style>
-    <title>PHP Portfolio Site</title>
+    <title>Mikko Rautavirta</title>
 </head>
 
 <body>
