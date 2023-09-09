@@ -45,11 +45,3 @@
 </head>
 
 <body>
-
-    <?php 
-$conn = postgres("postgres://mikko:'Paska123'@mikkorautavirta.postgres.database.azure.com:5432/mikkor");
-$sql = "SELECT * FROM users";
-$result = pg_query($conn, $sql);
-$row = pg_fetch_assoc($result);
-echo $row['name'];
-?>
